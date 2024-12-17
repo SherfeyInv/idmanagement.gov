@@ -107,7 +107,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     font-size:10 pt;
     text-align:center;
   }
-  #eoctag {
+  #eotag {
     background-color: rgb(205, 235, 139);
     font-size:10 pt;
     text-align:center;
