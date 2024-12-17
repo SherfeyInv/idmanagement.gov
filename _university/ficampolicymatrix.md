@@ -27,77 +27,99 @@ subnav:
 Laws, executive policies, regulations, and government standards drive multiple federal initiatives related to Federal Identity, Credential and Access Management. IATAD maintains this policy matrix to map delegations and authorities. ICAM Partners can use this matrix to understand the origins and ultimate authority of ICAM initiatives.
 
 Use the legend below to navigate to your desired FICAM policy map information. 
-  <style>
-      /* needed to remove underline in links - do not remove */    
-      a {
-        text-decoration: none;
-      }
+<style>
+  /* needed to remove underline in links - do not remove */    
+  a {
+    text-decoration: none;
+  }
 
-    /* Act of Congress Buttons */
-      #aocbutton {
-        background-color: #ffcc99;
-        cursor: pointer;
-        font-family: Arial-BoldMT, Arial; 
-        font-size: 14px; 
-        font-weight: 700;
-        text-align: center;
-      }
-      #aocbutton:hover {
-        background-color: rgba(174, 174, 174, 0.92);
-      }
+/* Act of Congress Buttons */
+  #aocbutton {
+    /* background-color: #ffcc99; */
+    background-color: #ffe6cc;
+    cursor: pointer;
+    font-family: Arial-BoldMT, Arial; 
+    font-size: 14px; 
+    font-weight: 700;
+    text-align: center;
+  }
+  #aocbutton:hover {
+    background-color: rgba(174, 174, 174, 0.92);
+  }
 
-      /* Executive Order Buttons */
-      #eobutton {
-        background-color: rgb(205, 235, 139);
-        cursor: pointer;
-        font-family: Arial-BoldMT, Arial; 
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center;
-      }
-      #eobutton:hover  {
-        background-color: rgba(174, 174, 174, 0.92);
-      }
+  /* Executive Order Buttons */
+  #eobutton {
+    /* background-color: rgb(205, 235, 139); */
+    background-color: #d5e8d4;
+    cursor: pointer;
+    font-family: Arial-BoldMT, Arial; 
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #eobutton:hover  {
+    background-color: rgba(174, 174, 174, 0.92);
+  }
 
-      /* OMB and OPM Buttons */
-      #fpbutton {
-        background-color: rgb(204, 229, 255);
-        cursor: pointer;
-        font-family: Arial-BoldMT, Arial; 
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center;
-      }
-      #fpbutton:hover  {
-        background-color: rgba(174, 174, 174, 0.92);
-      }
+  /* OMB and OPM Buttons */
+  #fpbutton {
+    /* background-color: rgb(204, 229, 255); */
+    background-color: #b1ddf0;
+    cursor: pointer;
+    font-family: Arial-BoldMT, Arial; 
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #fpbutton:hover  {
+    background-color: rgba(174, 174, 174, 0.92);
+  }
 
-      /* Technical Standard Buttons */
-      #tsbutton {
-        background-color: rgb(216, 216, 216);
-        cursor: pointer;
-        font-family: Arial-BoldMT, Arial; 
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center;
-      }
-      #tsbutton:hover  {
-        background-color: rgba(174, 174, 174, 0.92);
-      }
+  /* Technical Standard Buttons */
+  #tsbutton {
+    /* background-color: rgb(216, 216, 216); */
+    background-color: #eeeeee;
+    cursor: pointer;
+    font-family: Arial-BoldMT, Arial; 
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #tsbutton:hover  {
+    background-color: rgba(174, 174, 174, 0.92);
+  }
 
-      #gbbutton {
-        background-color: rgb(181, 159, 205);
-        cursor: pointer;
-        font-family: Arial-BoldMT, Arial; 
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center; 
-      }
-      #gbbutton:hover  {
-        background-color: rgba(174, 174, 174, 0.92);
-      } 
-
-  </style>
+  #gbbutton {
+    /* background-color: rgb(181, 159, 205); */
+    background-color: #e6e4fa;
+    cursor: pointer;
+    font-family: Arial-BoldMT, Arial; 
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center; 
+  }
+  #gbbutton:hover  {
+    background-color: rgba(174, 174, 174, 0.92);
+  } 
+  /* Tags below each clickable item in the legend(Key) */
+  #aoctag {
+    background-color: #ffcc99;
+  }
+  #eoctag {
+    background-color: rgb(205, 235, 139);
+  }
+  #fptag {
+    background-color: rgb(204, 229, 255);
+  }
+  } 
+  #gbtag {
+    background-color: rgb(181, 159, 205);
+  }
+  } 
+  #tstag {
+    background-color: rgb(216, 216, 216);
+  }
+</style>
 
 <table class="responsive">
 <tbody>
@@ -112,11 +134,11 @@ Use the legend below to navigate to your desired FICAM policy map information.
     <td id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</td>
   </tr>
   <tr>
-    <th scope="row" style="background-color:#ffe6cc;font-size:10pt;text-align:center;">Congress</th>
-    <td style="background-color:#d5e8d4;font-size:10pt;text-align:center;">White House</td>
-    <td style="background-color:#b1ddf0;font-size:10pt;text-align:center;">OMB/DNI/OPM</td>
-    <td style="background-color:#e6e4fa;font-size:10pt;text-align:center;">GSA/CIO Council/ICAMSC/FPKIPA</td>
-    <td style="background-color:#eeeeee;font-size:10pt;text-align:center;">NIST/ISC/NSA/FedRAMP</td>
+    <th id="aoctag" scope="row" style="background-color:#ffe6cc;font-size:10pt;text-align:center;">Congress</th>
+    <td id="eotag" style="background-color:#d5e8d4;font-size:10pt;text-align:center;">White House</td>
+    <td id="fptag" style="background-color:#b1ddf0;font-size:10pt;text-align:center;">OMB/DNI/OPM</td>
+    <td id="gbtag" style="background-color:#e6e4fa;font-size:10pt;text-align:center;">GSA/CIO Council/ICAMSC/FPKIPA</td>
+    <td id="tstag" style="background-color:#eeeeee;font-size:10pt;text-align:center;">NIST/ISC/NSA/FedRAMP</td>
   </tr>
 </tbody>
 </table>
