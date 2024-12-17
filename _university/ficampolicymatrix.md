@@ -26,10 +26,106 @@ subnav:
 
 Laws, executive policies, regulations, and government standards drive multiple federal initiatives related to Federal Identity, Credential and Access Management. IATAD maintains this policy matrix to map delegations and authorities. ICAM Partners can use this matrix to understand the origins and ultimate authority of ICAM initiatives.
 
-* [Policy Overview](#policy-overview)
+
+  <style>
+      /* needed to remove underline in links - do not remove */    
+      a {
+        text-decoration: none;
+      }
+
+    /* Act of Congress Buttons */
+      #aocbutton {
+        background-color: #ffcc99;
+        cursor: pointer;
+        font-family: Arial-BoldMT, Arial; 
+        font-size: 14px; 
+        font-weight: 700;
+        text-align: center;
+      }
+      #aocbutton:hover {
+        background-color: rgba(174, 174, 174, 0.92);
+      }
+
+      /* Executive Order Buttons */
+      #eobutton {
+        background-color: rgb(205, 235, 139);
+        cursor: pointer;
+        font-family: Arial-BoldMT, Arial; 
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      #eobutton:hover  {
+        background-color: rgba(174, 174, 174, 0.92);
+      }
+
+      /* OMB and OPM Buttons */
+      #fpbutton {
+        background-color: rgb(204, 229, 255);
+        cursor: pointer;
+        font-family: Arial-BoldMT, Arial; 
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      #fpbutton:hover  {
+        background-color: rgba(174, 174, 174, 0.92);
+      }
+
+      /* Technical Standard Buttons */
+      #tsbutton {
+        background-color: rgb(216, 216, 216);
+        cursor: pointer;
+        font-family: Arial-BoldMT, Arial; 
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      #tsbutton:hover  {
+        background-color: rgba(174, 174, 174, 0.92);
+      }
+
+      #gbbutton {
+        background-color: rgb(181, 159, 205);
+        cursor: pointer;
+        font-family: Arial-BoldMT, Arial; 
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center; 
+      }
+      #gbbutton:hover  {
+        background-color: rgba(174, 174, 174, 0.92);
+      } 
+
+  </style>
+
+<table class="responsive">
+<tbody>
+  <tr>
+    <th scope="row" colspan="5" style="font-weight:700;text-align:center;">Key</th>
+  </tr>
+  <tr>
+    <th scope="row" id="aocbutton" onclick="location.href='{{site.baseurl}}#laws-and-directives'">Act of Congress</th>
+    <td id="eobutton" onclick="location.href='{{site.baseurl}}#laws-and-directives'">Executive Order</td>
+    <td id="fpbutton" onclick="location.href='{{site.baseurl}}#federal-policies'">Federal Policy</td>
+    <td id="gbbutton" onclick="location.href='{{site.baseurl}}#federal-technical-guidance'">Government<br>Body</td>
+    <td id="tsbutton" onclick="location.href='{{site.baseurl}}#federal-technical-guidance'">Technical Standard</td>
+  </tr>
+  <tr>
+    <th scope="row" style="background-color:#ffe6cc;font-size:10pt;text-align:center;">Congress</th>
+    <td style="background-color:#d5e8d4;font-size:10pt;text-align:center;">White House</td>
+    <td style="background-color:#b1ddf0;font-size:10pt;text-align:center;">OMB/DNI/OPM</td>
+    <td style="background-color:#e6e4fa;font-size:10pt;text-align:center;">GSA/CIO Council/ICAMSC/FPKIPA</td>
+    <td style="background-color:#eeeeee;font-size:10pt;text-align:center;">NIST/ISC/NSA/FedRAMP</td>
+  </tr>
+</tbody>
+</table>
+
+
+<!-- * [Policy Overview](#policy-overview)
 * [Laws and Directives](#laws-and-directives)
 * [Federal Policies](#federal-policies)
-* [Federal Technical Guidance](#federal-technical-guidance)
+* [Federal Technical Guidance](#federal-technical-guidance) -->
 
 ## Policy Overview
 
@@ -37,47 +133,13 @@ The FICAM policy map below presents a visual overview of the laws, policies and 
 
 Use the legend below in conjuction with the FICAM policy map to navigate to your desired information. 
 
-<style>
-  /* for legend pointer */
-  tr.rowhover:hover {
-    background-color: #cfcfcf;
-    cursor: pointer;
-  }
-</style>
-<table width="75%" style="border:1px solid #c0c0c0;">
-  <tr>
-    <th style="background-color: #dfe1e2;text-align:center;" colspan="3"><strong>Legend</strong></th>
-  </tr>
-  <tr>
-    <th style="background-color: #dfe1e2;"><strong>Type</strong></th>
-    <th style="background-color: #dfe1e2;" colspan="2"><strong>Role</strong></th>
-  </tr>
-  <tr class="rowhover" onclick="location.href='#laws-and-directives';">
-    <td><span class="badge" style="color:#000;background-color:#cdeb8b;padding:14px;border-size:1;border-color:#000;">Executive Order</span></td>
-    <td colspan=2>A directive issued by the Office of the Presidency providing a basis for Federal Policies.</td>
-  </tr>
-  <tr class="rowhover" onclick="location.href='#laws-and-directives';">
-    <td><span class="badge" style="color:#000;background-color:#ffcc99;padding:14px;border-size:1;border-color:#000;">Act of Congress</span></td>
-    <td colspan=2>A law passed by Congress providing a basis for Federal Policies.</td>
-  </tr>
-  <tr class="rowhover" onclick="location.href='#federal-policies';">
-    <td><span class="badge" style="color:#000;background-color:#cce5ff;padding:14px;border-size:1;border-color:#000;">Federal Policy</span></td>
-    <td colspan=2>Rules governing the behavior of federal agencies.</td>
-  </tr>
-  <tr class="rowhover" onclick="location.href='#federal-technical-guidance';">
-    <td><span class="badge" style="color:#000;background-color:#b59fcd;padding:14px;border-size:1;border-color:#000;">Government Body</span></td>
-    <td colspan=2>An entity that issues laws, policies or technical standards.</td>
-  </tr>
-  <tr class="rowhover" onclick="location.href='#federal-technical-guidance';">
-    <td style="background-color: #dfe1e2;"> </td>
-    <td><span class="badge" style="color:#000;background-color:#d8d8d8;padding:14px;border-size:1;border-color:#000;">Technical Standard</span></td>
-    <td>Technical specifications that describe how to implement systems in accordance with Federal Policies.</td>
-  </tr>
-</table>
+<p style="text-align:center;">
+  <a href="{{site.baseurl}}/university/policymap/" title="Cliick to view the FICAM Policy Matrix Map" class="usa-button" type="button">
+     Click to view the FICAM Policy Matrix Map <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#arrow_forward"></use></svg>
+  </a>
+</p>
 
-<br>
-
-[![Visual overview of the laws, policies and standards relevant to FICAM, organized according to the government body that produced it. The relationships between the documents are illustrated by arrows connecting them.]({{site.baseurl}}/assets/policy-matrix/policy_matrix_map_no_key.webp)]({{site.baseurl}}/university/policymap/){:target="_blank"}{:rel="noopener noreferrer"}
+<!-- [![Visual overview of the laws, policies and standards relevant to FICAM, organized according to the government body that produced it. The relationships between the documents are illustrated by arrows connecting them.]({{site.baseurl}}/assets/img/icam-policy-landscape-map-nokey.png)]({{site.baseurl}}/university/policymap/){:target="_blank"}{:rel="noopener noreferrer"} -->
 
 ## Laws and Directives
 
