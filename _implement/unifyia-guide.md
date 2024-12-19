@@ -95,7 +95,7 @@ subnav:
       </thead>
       <tr>
         <th scope='row'>1.0.0</th>
-        <td>November 21, 2024</td>
+        <td>December 18, 2024</td>
         <td>First Version</td>
       </tr>
     </table>
@@ -113,21 +113,21 @@ subnav:
 <li><a href="#executive-summary">Executive Summary</a></li>
 <li><a href="#scope">Scope</a></li>
 <li><a href="#unifyia-platform">Unifyia Platform</a></li>
-<li><a href="#passkeys-fido2-fundamentals">Passkeys (FIDO2) Fundamentals</a></li>
-<li><a href="#passkeys-fido2-implementation-using-the-unifyia-platform">Passkeys (FIDO2) Implementation Using the Unifyia Platform</a>
+<li><a href="#passkeys-fido2-fundamentals">FIDO2 Passkeys Fundamentals</a></li>
+<li><a href="#passkeys-fido2-implementation-using-the-unifyia-platform">FIDO2 Passkeys Implementation Using the Unifyia Platform</a>
   <ol type="a">
     <li><a href="#system-configurations">System Configurations</a></li> 
   </ol>
 </li>
-<li><a href="#user-self-issuance-of-passkeys-fido2">User Self-Issuance of Passkeys (FIDO2)</a>
+<li><a href="#user-self-issuance-of-passkeys-fido2">User Self-Issuance of Passkeys</a>
   <ol type="a">
-    <li><a href="#log-in-using-idp-credentials-to-issue-passkeys-fido2">Log In Using IDP Credentials to Issue Passkeys (FIDO2)</a></li>
-    <li><a href="#log-in-using-piv-id-to-issue-derived-passkeys-dfcs">Log In Using PIV ID to Issue Derived Passkeys (DFCs)</a></li>
+    <li><a href="#log-in-using-idp-credentials-to-issue-passkeys-fido2">Log In Using IDP Credentials to Issue Passkeys</a></li>
+    <li><a href="#log-in-using-piv-id-to-issue-derived-passkeys-dfcs">Log In Using PIV ID to Issue Derived Passkeys</a></li>
     <li><a href="#fido2-provisioning-on-behalf-of-relying-parties">FIDO2 Provisioning on Behalf of Relying Parties</a></li>
 </ol>
 </li>
 <li><a href="#user-issuing-mobile-credentials-on-the-unifyia-id-wallet-app">User Issuing Mobile Credentials on the Unifyia ID Wallet App</a></li>
-<li><a href="#operator-issuance-of-passkeys-fido2">Operator Issuance of Passkeys (FIDO2)</a>
+<li><a href="#operator-issuance-of-passkeys-fido2">Operator Issuance of Passkeys</a>
   <ol type="a">
     <li><a href="#sponsor-user">Sponsor User</a></li>
     <li><a href="#enroll-user">Enroll User</a></li>
@@ -138,7 +138,7 @@ subnav:
 </li>
 <li><a href="#user-authentication-using-the-issued-credentials">User Authentication Using the Issued Credentials</a>
     <ol type="a">
-      <li><a href="#authenticate-using-the-passkeys-fido2">Authenticate Using the Passkeys (FIDO2)</a>
+      <li><a href="#authenticate-using-the-passkeys-fido2">Authenticate Using the Passkeys</a>
         <ol type="i">
           <li><a href="#scan-a-qr-code-to-authenticate">Scan a QR Code to Authenticate</a></li>
           <li><a href="#use-security-keys-to-authenticate">Use Security Keys to Authenticate</a></li>
@@ -148,13 +148,13 @@ subnav:
         <ol type="i">
           <li><a href="#fido2-credential">FIDO2 Credential</a></li>
           <li><a href="#pki-credential">PKI Credential</a></li>
-          <li><a href="#consent-credential-push-verify">Consent Credential (Push Verify)</a></li>
+          <li><a href="#consent-credential-push-verify">Consent Credential - Push Verify</a></li>
           <li><a href="#otp-credential">OTP Credential</a></li> 
         </ol>
       </li>
     </ol>
 </li> 
-<li><a href="#granular-lifecycle-management-of-the-passkeys-fido2">Granular Lifecycle Management of the Passkeys (FIDO2)</a>
+<li><a href="#granular-lifecycle-management-of-the-passkeys-fido2">Granular Lifecycle Management of the Passkeys</a>
   <ol type="a">
   <li><a href="#operator-lifecycle-actions">Operator Lifecycle Actions</a></li>
   <li><a href="#user-lifecycle-actions">User Lifecycle Actions</a></li>
@@ -178,7 +178,7 @@ subnav:
 
 ## Executive Summary
 
-<p align="justify">This implementation guide was developed as a result of joint experimentation using the Unifyia platform in the GSA Federal Aquisition Service Information Technology Categories cloud sandbox. The guide provides a detailed framework for implementing passkeys using external security keys, smart cards, and digital wallets for federal agencies and relying parties. The goal of passkey-based authentication is to strengthen security, ease operational burden for agencies, relying parties, users, and align with modern cybersecurity mandates by enabling phishing-resistant, passwordless authentication. The guide was reviewed in collaboration by a few Department of Energy national labs for quality assurance prior to publication.</p>
+<p align="justify">This implementation guide was developed as a result of a joint experiment using the Unifyia platform in the GSA Federal Aquisition Service Information Technology Categories cloud sandbox. The Office of Government-wide Policy collaborated with the Unifyia team providing program and technical leadership support throughout the project.  This guide provides a detailed framework for implementing passkeys using external security keys, smart cards, and digital wallets for federal agencies and relying parties. The goal of passkey-based authentication is to strengthen security, ease operational burden for agencies, relying parties, users, and align with modern cybersecurity mandates by enabling phishing-resistant, passwordless authentication. The guide was reviewed in collaboration by a few Department of Energy national labs for quality assurance prior to publication.</p>
 
 Topics covered within this implemenation guide are
 
