@@ -17,8 +17,8 @@ subnav:
     href: "#federal-policies"
   - text: Federal Technical Guidance
     href: "#federal-technical-guidance"
-  - text: Annual Updates
-    href: "#annual-updates"
+  - text: Upcoming Documents and Revisions
+    href: "#upcoming-documents-and-revisions"
     
 ---
 
@@ -418,9 +418,9 @@ This table lists Technical Guidance published under ICAM. They provide technical
 {% endfor %}
 
 
-## Annual Updates
+## Upcoming Documents and Revisions
 
-Annually and throughout the year, when documents from this authoring organization are updated, deprecated, or superseded, a schedule of when each affected document is expected to be replaced or updated by this authoring organization will be placed below. 
+Periodically, documents in this matrix will be updated, or new documents may be created that belong in the matrix. The list below provides links to the draft documents. The matrix will be updated when the following documents are finalized and published. 
 
 Please return to this section often to ensure you are accessing the most up-to-date information.     
 
