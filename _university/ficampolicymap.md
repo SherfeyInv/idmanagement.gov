@@ -68,7 +68,8 @@ sticky_sidenav: true
 
       /* OMB and OPM Buttons */
       .fpbutton {
-        fill: rgb(204, 229, 255);
+        /* fill: rgb(204, 229, 255); */
+        fill: #B5CBE2;
         stroke: #000;
         stroke-miterlimit: 10;
         letter-spacing: .03em;
