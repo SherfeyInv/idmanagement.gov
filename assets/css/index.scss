@@ -356,11 +356,6 @@
   .tablet\:float-left {
     float: left;
   }
-
-  .gsa-mobile {
-    display: none;
-  }
-
 }
 
 @media screen and (min-width: 640px) {
@@ -368,10 +363,6 @@
     display: initial;
   }
   .paginate-button {
-    display: none;
-  }
-
-  .gsa-mobile {
     display: none;
   }
 
@@ -383,10 +374,6 @@
   }
   .paginate-button {
     display: block;
-  }
-
-  .gsa-mobile {
-    display: none;
   }
 
 }
