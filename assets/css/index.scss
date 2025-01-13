@@ -403,4 +403,11 @@
     display: none;
   }
 
+  @media (max-width: 1024px) {
+  // attempt to fix mobile after update of uswds 3.11.0
+  .gsa-mobile {
+    display: none;
+  }
+  }
+
 }
