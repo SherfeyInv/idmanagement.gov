@@ -129,29 +129,28 @@ Laws, executive policies, regulations, and government standards drive multiple f
   }
 </style>
 
-<div class="width-mobile">
-<table class="usa-table usa-table--stacked">
+<table class="responsive">
 <tbody>
   <tr>
-    <th scope="col" colspan="5" style="font-weight:700;text-align:center;">Key</th>
+    <th scope="row" colspan="5" style="font-weight:700;text-align:center;">Key</th>
   </tr>
   <tr>
-    <th scope="col" id="aocbutton" onclick="location.href='#laws-and-directives'">Act of Congress</th>
-    <th scope="col" id="eobutton" onclick="location.href='#laws-and-directives'">Executive Order</th>
-    <th scope="col" id="fpbutton" onclick="location.href='#federal-policies'">Federal Policy</th>
-    <th scope="col" id="gbbutton" onclick="location.href='#federal-technical-guidance'">Government Agency</th>
-    <th scope="col" id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</th>
+    <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'">Act of Congress</th>
+    <td id="eobutton" onclick="location.href='#laws-and-directives'">Executive Order</td>
+    <td id="fpbutton" onclick="location.href='#federal-policies'">Federal Policy</td>
+    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'">Government Agency</td>
+    <td id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</td>
   </tr>
   <tr>
-    <th id="aoctag" scope="row" class="tablet:grid-col">Congress</th>
-    <td id="eotag" class="tablet:grid-col">White House</td>
-    <td id="fptag" class="tablet:grid-col">OMB/DNI/OPM</td> 
-    <td id="gbtag" class="tablet:grid-col">GSA/CIO Council/ICAMSC/FPKIPA</td>
-    <td id="tstag" class="tablet:grid-col">NIST/ISC/NSA/FedRAMP</td>
+    <th id="aoctag" scope="row">Congress</th>
+    <td id="eotag">White House</td>
+    <td id="fptag">OMB/DNI/OPM</td> 
+    <td id="gbtag">GSA/CIO Council/ICAMSC/FPKIPA</td>
+    <td id="tstag">NIST/ISC/NSA/FedRAMP</td>
   </tr>
 </tbody>
 </table>
-</div>
+
 
 <!-- * [Policy Overview](#policy-overview)
 * [Laws and Directives](#laws-and-directives)
