@@ -402,12 +402,31 @@
   .gsa-mobile {
     display: none;
   }
+}
 
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
+
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+  // Mobile Carousel adjustments
+  .hero-heading {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    font-size: 1rem;
+  }
+  
+  .usa-button {
+    font-size: 0.9rem;
+  }
+
   // attempt to fix mobile after update of uswds 3.11.0
   .gsa-mobile {
     display: none;
   }
-  }
-
 }
