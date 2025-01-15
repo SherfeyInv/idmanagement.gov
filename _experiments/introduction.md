@@ -11,7 +11,7 @@ subnav:
   #   href: '#introduction'
 ---
 
-This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA, other departments, and partnering agencies that contribute new ideas, standards, and frameworks. 
+This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA Office of Government-wide Policy, Identity Assurance and Trusted Access Division, other agencies, industry and academia partners. 
 
-Please return to this page often to keep up with the latest updates.
+Please reach out to [icam@gsa.gov](mailto:icam@gsa.gov) with ideas, questions, and collaboration opportunities for us to consider.  
 
