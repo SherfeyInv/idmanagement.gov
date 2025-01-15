@@ -83,7 +83,6 @@ primary_navigation:
         url: /implement/yubikey-guide/
       - name: Unifyia Implementation Guide for Passkeys (FIDO2)
         url: /implement/unifyia-guide/
-
   - name: Coordination Functions
     children: 
       - name: FICAM Program
@@ -94,10 +93,8 @@ primary_navigation:
         url: /fips201ep/
       - name: GSA PKI SSP Program
         url: /gsapkissp/
-
   - name: Playbooks
     url: /playbooks/
-
   - name: University
     children: 
       - name: Introduction
@@ -116,7 +113,6 @@ primary_navigation:
         url: /university/pm/
       - name: ICAM Policy Matrix
         url: /university/policymatrix/
-
   - name: Experiments 
     url: /experiments/
 
