@@ -11,4 +11,7 @@ subnav:
   #   href: '#introduction'
 ---
 
-This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA, other departments, and partnering agencies that contribute new ideas, standards, and frameworks. Please return to this page often to keep up with the latest updates.     
+This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA, other departments, and partnering agencies that contribute new ideas, standards, and frameworks. 
+
+Please return to this page often to keep up with the latest updates.
+
