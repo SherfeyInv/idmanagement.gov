@@ -20,8 +20,8 @@
   max-width: 100%;
 }
 
-// fix height fix for AAA 44px min-height requirement
-// affects sitewide since sidenav is global. 
+// Height fix for AAA 44px min-height requirement
+// affects sitewide AAA score since sidenav is global. 
 .usa-sidenav__item a {
   min-height: 44px;
 }
