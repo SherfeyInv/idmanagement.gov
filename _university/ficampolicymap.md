@@ -580,7 +580,7 @@ sticky_sidenav: true
     </g>
     <g id="M-15-13">
       <g id="eorect-13" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf" title="m-15-13" target="_blank" rel="noopener noreferrer">
+        <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf" title="m-15-13" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="676.5" y="454.8" width="81" height="24.5" />
         <text id="M-15-13-2" data-name="M-15-13" transform="translate(694.01 471.85) scale(1.03 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-15-13 </tspan></text>
         </a>
