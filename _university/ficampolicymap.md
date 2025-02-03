@@ -652,7 +652,7 @@ sticky_sidenav: true
     </g>
     <g id="HSPD-12_PIV_Box" data-name="HSPD-12/PIV Box">
       <g id="eorect-21" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf" title="M-05-24" target="_blank" rel="noopener noreferrer">
+        <a href="https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf" title="M-05-24" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="1317.5" y="524.8" width="102" height="59.5"/>
         <text id="HSPD-12_PIV" data-name="HSPD-12/PIV" transform="translate(1336.88 546.74) scale(.94 1)" style="font-family: Arial-BoldMT, Arial; font-size: 11px; font-weight: 700;"><tspan x="0" y="0">HSPD-12/PIV</tspan><tspan x="-8.85" y="12">Suspension and</tspan><tspan x="-8.86" y="24">Revocation </tspan><tspan x="53.49" y="24" style="letter-spacing: -.06em;">F</tspan><tspan x="59.6" y="24">AQ</tspan></text>
         </a>
