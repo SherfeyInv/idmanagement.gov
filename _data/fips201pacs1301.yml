@@ -336,7 +336,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: LenelS2 OnGuard with Embedded Authentication
+  infrastructure: LenelS2 OnGuard with HID Embedded Auth
   infraurl: /docs/apl-10112-lenel.pdf
   infraapl: 10112
   validation: HID Global Validation System for LenelS2 OnGuard with Embedded Authentication
